@@ -6,11 +6,10 @@
 */
 
 body {
-  max-width: 960px;
   margin: auto;
   border-bottom: 5px solid #d9d9d9;
   padding-bottom: 75px;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Work Sans, sans-serif;
   font-weight: 400;
   color: #303044;
 }
@@ -66,7 +65,7 @@ h6 {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Montserrat, sans-serif;
   line-height: 1;
 }
 
@@ -93,7 +92,7 @@ button {
 .container {
   margin: auto;
   padding: 0 15px;
-  width: 960px;
+  width: 1440px;
   max-width: 100%;
 }
 
@@ -196,7 +195,12 @@ button {
 }
 
 .chapo {
-  font-size: 1.6em;
+  width: 960px;
+  height: 116px;
+  font-family: Work Sans;
+  font-size: 25px; 
+  text-align: center;
+  margin: auto;  
 }
 
 .full-width {
@@ -204,6 +208,7 @@ button {
   width: 100%;
   margin: 50px auto;
 }
+
 
 
 /**
@@ -221,9 +226,9 @@ button {
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 35px;
-  width: 960px;
-  height: 350px;
-  background: url("../img/header-bg.jpeg");
+  width: 1440px;
+  height: 462px;
+  background: url("../img/background.jpg");
   background-size: cover;
   background-position: center bottom;
   overflow: hidden;
@@ -242,7 +247,6 @@ button {
   color: white;
   font-family: "Montserrat", "Avenir Next", Helvetica, Arial, sans-serif;
   text-shadow: 1px 1px 4px #000;
-  background: rgba(0, 0, 0, 0.4);
 }
 .header__content:hover {
   text-decoration: none;
@@ -250,19 +254,22 @@ button {
 
 .header__title {
   font-size: 5.4em;
-  margin: 0;
+   font-size: 64px;
+  font-family: Montserrat, bold;
 }
 
 .header__subtitle {
   margin: 0;
-  font-size: 3.2em;
-  font-weight: 100;
-  text-shadow: 1px 1px 5px #000;
+  font-size: 42px;
+  font-weight: 200;
+  text-shadow: 1px 1px 5px #000000;
+  font-family: Montserrat; 
 }
 
 
 .header__nav {
   background-color: rgba(0, 0, 0, 0.85);
+  text-align: center;
 }
 
 .nav-main__item {
@@ -271,12 +278,22 @@ button {
 
 .nav-main__link {
   display: block;
-  padding: 10px;
   color: #fff;
+  width: 218px;
+  height: 26px;
+  font-size: 18px;
+  font-weight: 300;
+  
 }
 .nav-main__link:hover {
   text-decoration: none;
   color: #d86324;
+  width: 218px;
+  height: 21px;
+  font-size: 18px;
+  font-weight: 300;
+
+
 }
 
 
