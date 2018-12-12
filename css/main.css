@@ -202,6 +202,19 @@ button {
   margin-bottom: 30px;  
 }
 
+.chaposingle{
+  font-family: Work Sans;
+  font-size: 25px; 
+  text-align: justify;
+}
+
+.conseils {
+  font-family: 'Work Sans'
+  font-size: 2em;
+  text-align: justify;
+}
+
+
 .full-width {
   display: block;
   width: 100%;
