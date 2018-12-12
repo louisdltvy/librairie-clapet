@@ -528,6 +528,37 @@ button {
   overflow: hidden;
 }
 
+.parents {
+display: flex;
+ }
+
+.enfant1 {
+  display: flex;
+  flex-direction: column;
+  }
+
+.bloc-citation{
+display: flex;
+
+}
+
+.citation {
+color: #e8a27d;
+font-family: Montserrat;
+font-size: 24px;
+}
+
+.auteur {
+color: #1a1a1a;
+text-align: right;
+font-family: 'Work Sans'
+font-size: 16px;
+}
+
+.bordure {
+  border-left: 6px solid green;
+  height: 50px;
+}
 
 
 
