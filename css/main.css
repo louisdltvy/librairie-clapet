@@ -308,6 +308,12 @@ button {
   border: none;
 }
 
+.Croix-separator {
+  margin-left: 580px;
+  margin-top: 40px;
+
+  }
+
 
 /**
 * honey-pot
@@ -490,4 +496,7 @@ button {
 .index-title {
   text-align: center;
   margin-bottom: 35px;
+  font-family: Montserrat;
+  font-size: 64px;
+  font-weight: 200;
 }
