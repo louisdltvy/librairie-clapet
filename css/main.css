@@ -7,9 +7,8 @@
 
 body {
   margin: auto;
-  border-bottom: 5px solid #d9d9d9;
   padding-bottom: 75px;
-  font-family: Work Sans, sans-serif;
+  font-family: 'Work Sans, sans-serif';
   font-weight: 400;
   color: #303044;
 }
@@ -196,11 +195,11 @@ button {
 
 .chapo {
   width: 960px;
-  height: 116px;
   font-family: Work Sans;
   font-size: 25px; 
   text-align: center;
-  margin: auto;  
+  margin: auto;
+  margin-bottom: 30px;  
 }
 
 .full-width {
@@ -283,6 +282,7 @@ button {
   height: 26px;
   font-size: 18px;
   font-weight: 300;
+  font-family: 'Work Sans';
   
 }
 .nav-main__link:hover {
@@ -417,7 +417,7 @@ button {
 }
 
 .news__text {
-  font-family: WorkSans;
+  font-family: 'Work Sans';
   font-size: 25px;
 }
 
@@ -501,15 +501,7 @@ button {
 */
 .container.decouvrez-notre-librairie {
   text-align: center;
-}
 
-.chapo {
-  width: 960px;
-  height: 116px;
-  font-family: Work Sans;
-  font-size: 25px; 
-  text-align: center;
-  margin: auto;
 }
 
 /**
@@ -523,6 +515,26 @@ button {
   font-weight: 200;
 }
 
+.headersingle {
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 35px;
+  width: 1440px;
+  height: 230px;
+  background: url("../img/background.jpg");
+  background-size: cover;
+  background-position: center bottom;
+  overflow: hidden;
+}
 
+.conseils-de-lecture {
+display: flex;
+}
 
+.img {
+  width: 570px;
+  height: 854px;
+  
+}
 
