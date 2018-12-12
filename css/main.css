@@ -309,10 +309,11 @@ button {
 }
 
 .Croix-separator {
-  margin-left: 580px;
+  display: block;
+  margin-left: auto;
   margin-top: 40px;
-
-  }
+  margin-right: auto;
+}
 
 
 /**
@@ -320,12 +321,13 @@ button {
 */
 
 .honey-pot-list {
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 .honey-pot {
   display: inline-block;
-  margin: 0 90px 35px 90px;
+  margin: auto;
   text-align: center;
 }
 
