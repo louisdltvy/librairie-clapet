@@ -378,6 +378,7 @@ button {
 
 .news__link:hover {
   color: #d86324;
+  line-height: 16px;
 }
 
 .news__link:hover .news__thumbnail {
@@ -386,6 +387,7 @@ button {
   -webkit-transition-delay: 0ms;
   -o-transition-delay: 0ms;
   transition-delay: 0ms;
+
 }
 
 
@@ -430,6 +432,7 @@ button {
   display: inline-block;
   padding-bottom: 35px;
   border-bottom: 1px solid #b0b0c5;
+  margin-bottom: 20px;
 
 }
 .news--main .news__link {
@@ -500,6 +503,15 @@ button {
   text-align: center;
 }
 
+.chapo {
+  width: 960px;
+  height: 116px;
+  font-family: Work Sans;
+  font-size: 25px; 
+  text-align: center;
+  margin: auto;
+}
+
 /**
 * index
 */
@@ -510,3 +522,7 @@ button {
   font-size: 64px;
   font-weight: 200;
 }
+
+
+
+
