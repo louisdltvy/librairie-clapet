@@ -325,7 +325,7 @@ button {
 
 .honey-pot {
   display: inline-block;
-  margin: 0 30px 35px 30px;
+  margin: 0 90px 35px 90px;
   text-align: center;
 }
 
@@ -339,7 +339,7 @@ button {
 .honey-pot__thumbnail {
   position: relative;
   display: inline-block;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   filter: grayscale(0);
 }
 
@@ -355,12 +355,18 @@ button {
   margin: 0;
   font-size: 2em;
   font-weight: bold;
+  font-family: Montserrat;
+  font-size: 26px;
+  font-weight: 600px;
 }
 
 .honey-pot__subtitle {
   margin: 0;
   font-size: 1.6em;
   font-weight: 200;
+  font-family: Montserrat;
+  font-size: 22px;
+  font-weight: 300;
 }
 
 
