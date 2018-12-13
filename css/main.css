@@ -435,6 +435,7 @@ button {
   font-family: Montserrat;
   font-size: 24px;
   font-weight: 500;
+  font-weight: bold;
 }
 
 .news__text {
@@ -444,7 +445,7 @@ button {
 
 .news__text1 {
   font-family: 'Work Sans';
-  font-size: 25px;
+  font-size: 20px;
   margin-left: 90px;
   margin-right: 90px;
 }
@@ -463,6 +464,16 @@ button {
   margin-bottom: 20px;
 
 }
+
+.news--main1 {
+  display: inline-block;
+  padding-bottom: 35px;
+  border-bottom: 1px solid #b0b0c5;
+  margin-bottom: 20px;
+  margin-right: 70px;
+
+}
+
 .news--main .news__link {
   display: flex;
   align-items: flex-start;
@@ -596,6 +607,23 @@ font-family: 'Work Sans';
 font-size: 16px;
 }
 
+.news-grid {
+  display: grid;
+  grid-gap: 35px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  margin: 35px auto;
+justify-content: center;
+width: 1194px;
+}
 
+.news-grid2 {
+  grid-column: span 2;
+}
+
+.news-grid1 {
+grid-column: span 1;
+line-height: 12px;
+}
 
 
