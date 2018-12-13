@@ -419,7 +419,7 @@ button {
 
 .news__image {
   display: block;
-  width: 90%;
+  width: 100%;
 }
 
 .news__date {
@@ -441,6 +441,7 @@ button {
 .news__text {
   font-family: 'Work Sans';
   font-size: 25px;
+  font-weight: 400;
 }
 
 .news__text1 {
@@ -623,7 +624,8 @@ width: 1194px;
 
 .news-grid1 {
 grid-column: span 1;
-line-height: 12px;
 }
+
+
 
 
