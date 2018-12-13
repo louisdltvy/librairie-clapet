@@ -622,6 +622,10 @@ width: 1194px;
   grid-column: span 2;
 }
 
+.news-grid4 {
+  grid-column: span 4;
+}
+
 .news-grid1 {
 grid-column: span 1;
 }
