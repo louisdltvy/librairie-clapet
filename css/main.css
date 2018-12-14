@@ -452,6 +452,7 @@ button {
 }
 
 .news__large {
+  margin-top: 0px;
   margin-bottom: 30px;
   font-size: 2.25em;
   color: #1a1a1a;
