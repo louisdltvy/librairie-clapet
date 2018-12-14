@@ -418,11 +418,18 @@ button {
 .news__thumbnail {
   margin-bottom: 10px;
   filter: grayscale(0);
+  transition: .3s transform;
+}
+
+.news__thumbnail:hover {
+  filter: grayscale(0);
+  transform: translateY(50px);
 }
 
 .news__image {
   display: block;
   width: 100%;
+
 }
 
 .news__date {
