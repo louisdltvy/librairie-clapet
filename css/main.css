@@ -364,10 +364,12 @@ button {
   display: inline-block;
   margin-bottom: 30px;
   filter: grayscale(0);
+  transition: .3s transform;
 }
 
 .honey-pot__thumbnail:hover {
   filter: grayscale(60%);
+  transform: translateY(50px);
 }
 
 .honey-pot__thumbnail img {
@@ -379,7 +381,8 @@ button {
   font-size: 2em;
   font-family: Montserrat;
   font-size: 26px;
-  font-weight: 600px;
+  font-weight: bold;
+
 }
 
 .honey-pot__subtitle {
