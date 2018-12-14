@@ -451,6 +451,28 @@ button {
   margin-right: 90px;
 }
 
+.news__large {
+  margin-bottom: 30px;
+  font-size: 2.25em;
+  color: #1a1a1a;
+  font-family: 'Work Sans'
+}
+
+.news__bd {
+  margin: 0 0 15px;
+  line-height: 1.4;
+  font-family: Montserrat;
+  font-size: 42px;
+  text-align: justify;
+}
+
+.news__large1 {
+  font-family: 'Work Sans';
+  font-size: 20px;
+  font-weight: 400;
+  text-align: justify;
+}
+
 .page-list .news {
   margin: 0 auto 20px auto;
   border-bottom: 1px solid #b0b0c5;
@@ -530,11 +552,25 @@ button {
 }
 
 .page-single__subtitle {
-  margin: 0;
+  margin:auto;
   font-size: 3.2em;
   font-weight: 200;
 }
 
+.page-single__title1 {
+  margin-left: 90px;
+  margin-right: 90px;
+  font-size: 5.6em;
+  line-height: 1.4;
+  font-weight: 500;
+}
+
+.page-single__subtitle1 {
+  margin-left: 90px;
+  margin-right: 90px;
+  font-size: 3.2em;
+  font-weight: 200;
+}
 
 /**
 * decouvrez-notre-librairie
@@ -639,6 +675,10 @@ font-size: 16px;
 
 .news-grid1 {
 grid-column: span 1;
+}
+
+.news-grid3 {
+grid-column: span 3;
 }
 
 
