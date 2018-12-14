@@ -614,8 +614,8 @@ font-size: 16px;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto;
   margin: 35px auto;
-justify-content: center;
-width: 1194px;
+  justify-content: center;
+  width: 1194px;
 }
 
 .news-grid2 {
@@ -624,6 +624,17 @@ width: 1194px;
 
 .news-grid4 {
   grid-column: span 4;
+
+}
+
+.news-grid4 .news__link {
+  display: grid;
+  grid-gap: 35px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  justify-content: center;
+  width: 1194px;
+
 }
 
 .news-grid1 {
