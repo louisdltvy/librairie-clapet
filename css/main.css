@@ -365,11 +365,13 @@ button {
   margin-bottom: 30px;
   filter: grayscale(0);
   transition: .3s transform;
+  opacity: .3s;
 }
 
 .honey-pot__thumbnail:hover {
   filter: grayscale(60%);
-  transform: translateY(50px);
+  transform: translateY(20px);
+  opacity: 0.5;
 }
 
 .honey-pot__thumbnail img {
@@ -419,11 +421,13 @@ button {
   margin-bottom: 10px;
   filter: grayscale(0);
   transition: .3s transform;
+  opacity: .3s;
 }
 
 .news__thumbnail:hover {
   filter: grayscale(0);
-  transform: translateY(50px);
+  transform: translateY(20px);
+  opacity: 0.5;
 }
 
 .news__image {
